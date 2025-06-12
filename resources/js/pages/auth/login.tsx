@@ -9,7 +9,7 @@ function Login() {
         remember: false
     })
 
-    const connexion = (e) => {
+    const connexion = (e : any) => {
         e.preventDefault()
         router.post('/login', values)
     }
